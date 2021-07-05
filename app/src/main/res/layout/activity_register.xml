@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/edit_text_background"
         android:layout_marginTop="15dp"
-        android:hint="Username"
+        android:hint="@string/username"
         android:padding="10dp"
         android:id="@+id/username"/>
 
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/edit_text_background"
         android:layout_marginTop="15dp"
-        android:hint="Name"
+        android:hint="@string/name"
         android:padding="10dp"
         android:id="@+id/name"/>
 
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/edit_text_background"
         android:layout_marginTop="15dp"
-        android:hint="Email"
+        android:hint="@string/email"
         android:padding="10dp"
         android:id="@+id/email"/>
 
@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/edit_text_background"
         android:layout_marginTop="15dp"
-        android:hint="Password"
+        android:hint="@string/password"
         android:padding="10dp"
         android:id="@+id/password"/>
 
@@ -55,14 +55,14 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button_background"
         android:layout_marginTop="15sp"
-        android:text="REGISTER"
+        android:text="@string/register"
         android:padding="10dp"
         android:id="@+id/register"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Already a user? LogIn"
+        android:text="@string/already_a_user_login"
         android:layout_marginTop="15dp"
         android:id="@+id/login_user"/>
 

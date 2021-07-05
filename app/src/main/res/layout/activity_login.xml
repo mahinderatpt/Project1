@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/edit_text_background"
         android:layout_marginTop="15dp"
-        android:hint="Email"
+        android:hint="@string/email"
         android:padding="10dp"
         android:id="@+id/email"/>
 
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/edit_text_background"
         android:layout_marginTop="15dp"
-        android:hint="Password"
+        android:hint="@string/password"
         android:padding="10dp"
         android:id="@+id/password"/>
 
@@ -37,14 +37,14 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button_background"
         android:layout_marginTop="15sp"
-        android:text="LOGIN"
+        android:text="@string/login"
         android:padding="10dp"
         android:id="@+id/login"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New to Instagram? Register"
+        android:text="@string/new_to_instagram_register"
         android:layout_marginTop="15dp"
         android:id="@+id/register_user"/>
 
